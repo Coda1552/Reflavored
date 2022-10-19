@@ -1,0 +1,7 @@
+{
+  "parent": "block/flower_pot_cross",
+  "textures": {
+    "plant": "reflavored:block/alpine_lily"
+  },
+  "render_type": "cutout"
+}

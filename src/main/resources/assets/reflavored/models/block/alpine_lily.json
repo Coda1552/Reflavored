@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "reflavored:block/alpine_lily"
+  },
+  "render_type": "cutout"
+}

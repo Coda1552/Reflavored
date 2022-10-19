@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "reflavored:block/douglas_iris"
+  },
+  "render_type": "cutout"
+}

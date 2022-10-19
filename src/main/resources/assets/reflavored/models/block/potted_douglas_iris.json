@@ -1,0 +1,7 @@
+{
+  "parent": "block/flower_pot_cross",
+  "textures": {
+    "plant": "reflavored:block/douglas_iris"
+  },
+  "render_type": "cutout"
+}
