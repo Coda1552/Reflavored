@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["flower_forest","forest","dark_forest","old_growth_spruce_taiga"],
+  "features": "reflavored:patch_douglas_iris",
+  "step": "vegetal_decoration"
+}

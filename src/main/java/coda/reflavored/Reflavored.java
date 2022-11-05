@@ -1,8 +1,6 @@
 package coda.reflavored;
 
-import coda.reflavored.registry.SMRBiomeModifiers;
-import coda.reflavored.registry.SMRBlocks;
-import coda.reflavored.registry.SMRItems;
+import coda.reflavored.registry.*;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +23,8 @@ public class Reflavored {
         SMRItems.ITEMS.register(bus);
         SMRBlocks.BLOCKS.register(bus);
         SMRBiomeModifiers.BIOME_MODIFIERS.register(bus);
+        SMRPlacedFeatures.PLACED_FEATURES.register(bus);
+        SMRConfiguredFeatures.CONFIGURED_FEATURES.register(bus);
     }
 
 }
