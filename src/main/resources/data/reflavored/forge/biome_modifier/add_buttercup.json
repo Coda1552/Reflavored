@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["flower_forest"],
+  "features": "reflavored:patch_buttercup",
+  "step": "vegetal_decoration"
+}

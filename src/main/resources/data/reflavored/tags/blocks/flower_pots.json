@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "reflavored:potted_alpine_lily",
+    "reflavored:potted_douglas_iris",
+    "reflavored:potted_buttercup"
+  ]
+}

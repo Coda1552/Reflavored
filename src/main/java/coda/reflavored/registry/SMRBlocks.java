@@ -23,9 +23,11 @@ public class SMRBlocks {
     public static final RegistryObject<Block> ORANGE_ROSE_BUSH = register("orange_rose_bush", () -> new TallFlowerBlock(BlockBehaviour.Properties.of(Material.PLANT).noCollission().instabreak().sound(SoundType.GRASS)));
     public static final RegistryObject<Block> YELLOW_ROSE_BUSH = register("yellow_rose_bush", () -> new TallFlowerBlock(BlockBehaviour.Properties.of(Material.PLANT).noCollission().instabreak().sound(SoundType.GRASS)));
     public static final RegistryObject<Block> PINK_ROSE_BUSH = register("pink_rose_bush", () -> new TallFlowerBlock(BlockBehaviour.Properties.of(Material.PLANT).noCollission().instabreak().sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> BUTTERCUP = register("buttercup", () -> new FlowerBlock(MobEffects.REGENERATION, 6, BlockBehaviour.Properties.of(Material.PLANT).noCollission().instabreak().sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> POTTED_DOUGLAS_IRIS = BLOCKS.register("potted_douglas_iris", () -> new FlowerPotBlock(DOUGLAS_IRIS.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
     public static final RegistryObject<Block> POTTED_ALPINE_LILY = BLOCKS.register("potted_alpine_lily", () -> new FlowerPotBlock(ALPINE_LILY.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> POTTED_BUTTERCUP = BLOCKS.register("potted_buttercup", () -> new FlowerPotBlock(BUTTERCUP.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         return register(name, block, new Item.Properties().tab(Reflavored.GROUP));

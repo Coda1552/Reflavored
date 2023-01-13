@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "reflavored:alpine_lily",
-    "reflavored:douglas_iris"
+    "reflavored:douglas_iris",
+    "reflavored:buttercup"
   ]
 }

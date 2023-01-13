@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": ["flower_forest","meadow","taiga"],
+  "biomes": ["forest","flower_forest","birch_forest","dark_forest","old_growth_birch_forest"],
   "features": ["reflavored:patch_yellow_rose_bush","reflavored:patch_orange_rose_bush","reflavored:patch_pink_rose_bush"],
   "step": "vegetal_decoration"
 }
